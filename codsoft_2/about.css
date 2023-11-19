@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url("images/background.jpg");
+    
+}
+.text-container {
+    background-color: rgb(240, 248, 255, 0.7);
+    background-size: cover;
+    background-position: center;
+    padding: 40px; 
+    color: #333;
+    width: 80%;
+}
+.container {
+    position: relative;
+    width: 70%;
+    margin: auto 40px;
+    padding: 30px;
+   
+}
+
+.about-section {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.about-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.services-list {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+    text-align: justify;
+}
+
+.services-list li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.services-list li:before {
+    content: "• ";
+    color: rgb(89, 223, 216, 0.9);
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: justify;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: #59dfd880;
+    font-weight: 300;
+    bottom: 0px;
+}
+.prev {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 70px;
+    padding: 8px 56px;
+    border: 2px solid #4fb8b0;
+    color: #040101;
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 0px;
+    font-size: 24px;
+}
+    
+.prev:hover {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #4fb8b0;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0px;
+}
+    
+.prev-container {
+    padding: 50px 10px; 
+}
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 100%; 
+    margin-left: -200px; 
+    margin-top: 180px;
+}
+.image-container img {
+    width: 600px; 
+    height: auto; 
+}

@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(images/background.jpg);
+    color: #040101;
+}
+
+.contact-left{
+    margin-top: 70px;
+    flex-basis: 35%;
+    color: #040101;
+    margin-left: 50px;
+}
+.contact-right{
+    flex-basis: 60%;
+    width: 50%;
+    margin-left: 600px;
+    margin-top: -210px;
+    
+}
+.contact-left p{
+    margin-top: 60px;
+}
+.contact-left p i{
+    color: #040101;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #040101;
+    display: inline-block;
+    transition: transform 0.5s;
+
+}
+.social-icons a:hover{
+    color: #59dfd880;
+    transform: translate(5px);
+}
+.btn{
+    display: inline-block;
+    background: #59dfd880;
+    border: #5e57e6;
+    border-radius: 50px;
+    
+}
+.btn:hover{
+    display: inline-block;
+    background: rgba(5, 159, 149, 0.9);
+    border: #5e57e6;
+    border-radius: 50px;
+    
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: rgb(89, 223, 216, 0.87);
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #040101;
+}
+.prev {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 70px;
+    padding: 8px 56px;
+    border: 2px solid #4fb8b0;
+    color: #040101;
+    text-decoration: none;
+    border-radius: 24px;
+    margin-right: 0px;
+    font-size: 24px;
+}
+    
+.prev:hover {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #4fb8b0;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 0px;
+}
+    
+.prev-container {
+    padding: 50px 10px; 
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: #59dfd8e1;
+    font-weight: 300;
+    margin-top: 332px;
+    bottom: 0px;
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5d469fd075.js" crossorigin="anonymous"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="background">
+            <img src="images/background.jpg" width="700px" height="700px">
+            </div>
+            <div id="logo">
+                <img src="images/logo (2).png" class="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1> Hello! I'm <span>Sathvik L Bhat</span></h1><p class="web-developer">and I'm a Web Developer</p>
+                <br><br>
+                <a href="#about" class="about-link">About Me <i class="fa-solid fa-turn-down"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-------------------- About ------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/man.png"width="600px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About me</h1>
+                    <p><br>Hello there! 👋 I'm Sathvik L Bhat, an enthusiastic and aspiring web developer on a quest to create digital experiences that captivate and innovate. As an undergraduate student deeply passionate about the ever-evolving world of technology, I thrive on the excitement of turning ideas into dynamic and functional websites.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Dev</span><br>Web Development</li>
+                            <li><span>Programing</span><br>C/C++, Python, Javascript</li>
+                            <li><span>DBMS</span><br>Php, Mongodb</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Pega Systems</span><br>System architects essential 8.7 </li>
+                            <li><span>Inhouse</span><br>HTML/CSS development</li>
+                            <li><span>Inhouse</span><br>Social media Marketing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Dayananda Sagar College of Engineering, Bangalore</span><br>Information Science (current)</li>
+                            <li><span>Expert P.U College</span><br>Higher secondary education</li>
+                            <li><span>Sharada Vidyanikethana Public School</span><br>High School</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------services------------------- -->
+    <div id="services">
+        <div id="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2> Web Design</h2>
+                    <p>As a web developer, I specialize in crafting dynamic and responsive websites that not only look aesthetically pleasing but also functional.Using a blend of HTML, CSS and JavaScript, I create engaging user interfaces and user experiences that meet the unique needs of businesses and individuals. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2> DBMS</h2>
+                    <p>Proficient in Database Management Systems, I excel in designing, implementing, and managing databases. Whether it's relational databases using SQL or embracing the flexibility of NoSQL databases like MongoDB, I ensure efficient data storage, retrieval, and management while maintaining data integrity and security.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2> JavaScript</h2>
+                    <p>I am currently on an exciting journey of learning JavaScript and exploring its vast possibilities in web development. While I'm in the process of mastering this versatile language, I am passionate about its potential to create dynamic and interactive web experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------- Portfolio --------------------- -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/social.jpg">
+                    <div class="layer">
+                        <h3>Company Website</h3>
+                        <p>The company website project I developed serves as a dynamic and interactive platform showcasing the essence and offerings of our organization. Crafted with a blend of HTML, CSS, and JavaScript, this website encapsulates our company's ethos, products/services, and commitment to our audience.</p>
+                        <a href="https://github.com/Sathvik2103/Projects/tree/main/Landing%20page"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/calc.jpg" height="100%">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>The calculator web application I created is a functional and user-friendly tool designed to perform basic arithmetic operations. Developed using HTML, CSS, and JavaScript, this calculator offers a seamless and intuitive experience for users to perform calculations conveniently.</p>
+                        <a href="https://github.com/Sathvik2103/Projects/tree/main/Calculator"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/php.jpg">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>My portfolio website serves as a personalized showcase of my skills, projects, and experiences in the realm of web development. Crafted meticulously with HTML, CSS, and JavaScript, this website embodies my professional identity and showcases my capabilities to potential employers, clients, and collaborators.</p>
+                        <a href="https://github.com/Sathvik2103/Projects/tree/main/portfolio"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Sathvik2103/Projects" class="btn">See More</a>
+        </div>
+    </div>
+    
+    <!-- ---------------------------- Contact------------------------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>bhatsathvik21@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>7795862103</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/sathvik-bhat-1995a1281"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.reddit.com/"><i class="fa-brands fa-reddit"></i></a>
+                            <a href="https://github.com/Sathvik2103"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="resume.pdf" download class="btn btn1">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn1">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Sathvik. Thanks for visiting <i class="fa-regular fa-face-smile-beam"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxh_UhoEhxeiU476usZl-W54XNDY-fT2VurAsKMoiCs5vTRBc5ASmL3pxzrR6lnwylo/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+      
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully. Thanks for your Input!"
+            setTimeout(function(){
+                msg.innerHTML = ""},5000)
+                form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+</body>
+</html>
